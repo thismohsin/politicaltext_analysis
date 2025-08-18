@@ -1,0 +1,28 @@
+=== POLITICAL SEMANTIC DRIFT ANALYSIS - KEY FINDINGS ===
+
+📊 EXPERIMENT OVERVIEW:
+   • Models trained: 4
+   • Time periods: 4
+   • Model architectures: baseline
+
+🔍 BASELINE MODEL FINDINGS:
+   Most semantically volatile terms:
+      • green: 0.489 volatility score
+      • immigration: 0.471 volatility score
+      • emission: 0.457 volatility score
+      • extremism: 0.384 volatility score
+      • taxation: 0.383 volatility score
+   Terms with ideological direction flips:
+      • green: flipped 3 times
+      • oversight: flipped 3 times
+      • liberty: flipped 2 times
+      • insurance: flipped 2 times
+      • spending: flipped 2 times
+   Trend patterns: {'leftward': 11, 'rightward': 14, 'stable': 5}
+   Total significant shifts: 180
+
+💡 RESEARCH IMPLICATIONS:
+   • Political language shows measurable semantic drift over time
+   • Terms like 'reform' and 'security' change ideological associations
+   • Transformer models needed for deep semantic understanding
+   • Temporal evaluation crucial for political NLP model robustness

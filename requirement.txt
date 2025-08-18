@@ -1,0 +1,12 @@
+numpy==2.2
+scipy
+pandas
+scikit-learn
+transformers
+datasets
+shap
+matplotlib
+seaborn
+tqdm
+torch
+torchvision

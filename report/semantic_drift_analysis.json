@@ -1,0 +1,1244 @@
+{
+  "baseline": {
+    "trajectory_analysis": {
+      "forces": {
+        "term": "forces",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.10557192699506819,
+            0.14620562473359894,
+            0.005266093034178669,
+            0.07213490323562229
+          ],
+          "RIGHT": [
+            -0.10557192699506819,
+            -0.14620562473359894,
+            -0.005266093034178669,
+            -0.07213490323562229
+          ]
+        },
+        "volatility_score": 0.08281401321313155,
+        "trend_direction": "rightward"
+      },
+      "policy": {
+        "term": "policy",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.153467652029876,
+            0.02280188092616597,
+            -0.1555353884331251,
+            -0.11567177386914851
+          ],
+          "RIGHT": [
+            0.153467652029876,
+            -0.02280188092616597,
+            0.1555353884331251,
+            0.11567177386914851
+          ]
+        },
+        "volatility_score": 0.13149013895976988,
+        "trend_direction": "stable"
+      },
+      "renewable": {
+        "term": "renewable",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.16984182260497196,
+            0.011617611154176782,
+            -0.267064693773153,
+            0.06552356285207955
+          ],
+          "RIGHT": [
+            -0.16984182260497196,
+            -0.011617611154176782,
+            0.267064693773153,
+            -0.06552356285207955
+          ]
+        },
+        "volatility_score": 0.25649825766778583,
+        "trend_direction": "rightward"
+      },
+      "free": {
+        "term": "free",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.0953089344456627,
+            0.031364538432895564,
+            -0.10448700464450156,
+            -0.09799688822495999
+          ],
+          "RIGHT": [
+            0.0953089344456627,
+            -0.031364538432895564,
+            0.10448700464450156,
+            0.09799688822495999
+          ]
+        },
+        "volatility_score": 0.0896717107918323,
+        "trend_direction": "rightward"
+      },
+      "nuclear": {
+        "term": "nuclear",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.265328065205063,
+            0.3124788460860339,
+            0.34516905561353656,
+            0.1642418475048179
+          ],
+          "RIGHT": [
+            -0.265328065205063,
+            -0.3124788460860339,
+            -0.34516905561353656,
+            -0.1642418475048179
+          ]
+        },
+        "volatility_score": 0.08692273283906406,
+        "trend_direction": "rightward"
+      },
+      "oil": {
+        "term": "oil",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            1.0838256198572818,
+            0.15210451275613382,
+            0.11871255463865325,
+            0.09231960197014306
+          ],
+          "RIGHT": [
+            -1.0838256198572818,
+            -0.15210451275613382,
+            -0.11871255463865325,
+            -0.09231960197014306
+          ]
+        },
+        "volatility_score": 0.3305020059623796,
+        "trend_direction": "rightward"
+      },
+      "welfare": {
+        "term": "welfare",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.15405915352454042,
+            -0.012067579223090898,
+            -0.3683023733669654,
+            -0.3242837374649675
+          ],
+          "RIGHT": [
+            0.15405915352454042,
+            0.012067579223090898,
+            0.3683023733669654,
+            0.3242837374649675
+          ]
+        },
+        "volatility_score": 0.18074833478244065,
+        "trend_direction": "rightward"
+      },
+      "civil": {
+        "term": "civil",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.019386288379806126,
+            0.13680525471591068,
+            -0.11606380475331035,
+            0.15317372025902326
+          ],
+          "RIGHT": [
+            0.019386288379806126,
+            -0.13680525471591068,
+            0.11606380475331035,
+            -0.15317372025902326
+          ]
+        },
+        "volatility_score": 0.22609937585909048,
+        "trend_direction": "leftward"
+      },
+      "gdp": {
+        "term": "gdp",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.23649151891002435,
+            0.0,
+            -0.27314124317448263,
+            -0.11579475362725702
+          ],
+          "RIGHT": [
+            0.23649151891002435,
+            0.0,
+            0.27314124317448263,
+            0.11579475362725702
+          ]
+        },
+        "volatility_score": 0.22232641721057753,
+        "trend_direction": "stable"
+      },
+      "progress": {
+        "term": "progress",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.12991670266153557,
+            0.046633863372749634,
+            -0.1267913161322997,
+            0.07102183887979183
+          ],
+          "RIGHT": [
+            0.12991670266153557,
+            -0.046633863372749634,
+            0.1267913161322997,
+            -0.07102183887979183
+          ]
+        },
+        "volatility_score": 0.18259630018380868,
+        "trend_direction": "leftward"
+      },
+      "court": {
+        "term": "court",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.03972671112085602,
+            0.02246055011452218,
+            -0.17698492250215847,
+            0.022829834527703718
+          ],
+          "RIGHT": [
+            0.03972671112085602,
+            -0.02246055011452218,
+            0.17698492250215847,
+            -0.022829834527703718
+          ]
+        },
+        "volatility_score": 0.1538158302939737,
+        "trend_direction": "stable"
+      },
+      "tradition": {
+        "term": "tradition",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.10028479015728158,
+            0.026301991104724965,
+            -0.12481423363622189,
+            -0.3108078561783417
+          ],
+          "RIGHT": [
+            -0.10028479015728158,
+            -0.026301991104724965,
+            0.12481423363622189,
+            0.3108078561783417
+          ]
+        },
+        "volatility_score": 0.13703088211187442,
+        "trend_direction": "rightward"
+      },
+      "federal": {
+        "term": "federal",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.15056623575299258,
+            0.04257868484520693,
+            -0.2640054833411341,
+            0.030572080676703528
+          ],
+          "RIGHT": [
+            0.15056623575299258,
+            -0.04257868484520693,
+            0.2640054833411341,
+            -0.030572080676703528
+          ]
+        },
+        "volatility_score": 0.2647688842674594,
+        "trend_direction": "leftward"
+      },
+      "terror": {
+        "term": "terror",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.036078024667175856,
+            0.13971294934527825,
+            0.15429435377992698,
+            -0.05764133174396457
+          ],
+          "RIGHT": [
+            -0.036078024667175856,
+            -0.13971294934527825,
+            -0.15429435377992698,
+            0.05764133174396457
+          ]
+        },
+        "volatility_score": 0.11005067154554755,
+        "trend_direction": "rightward"
+      },
+      "social": {
+        "term": "social",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.1658282784536607,
+            0.03415349761415449,
+            -0.1701201104355166,
+            -0.11422741342702131
+          ],
+          "RIGHT": [
+            0.1658282784536607,
+            -0.03415349761415449,
+            0.1701201104355166,
+            0.11422741342702131
+          ]
+        },
+        "volatility_score": 0.15338269370866053,
+        "trend_direction": "stable"
+      },
+      "support": {
+        "term": "support",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.004467546854153587,
+            0.10423974938239228,
+            0.13905111577806722,
+            0.12079245680714525
+          ],
+          "RIGHT": [
+            0.004467546854153587,
+            -0.10423974938239228,
+            -0.13905111577806722,
+            -0.12079245680714525
+          ]
+        },
+        "volatility_score": 0.053925773867714265,
+        "trend_direction": "leftward"
+      },
+      "border": {
+        "term": "border",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.17212553662739444,
+            0.07292939597692262,
+            0.1374974240268079,
+            -0.13751688017628153
+          ],
+          "RIGHT": [
+            0.17212553662739444,
+            -0.07292939597692262,
+            -0.1374974240268079,
+            0.13751688017628153
+          ]
+        },
+        "volatility_score": 0.19487908828576392,
+        "trend_direction": "leftward"
+      },
+      "change": {
+        "term": "change",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.029098254615741045,
+            0.16182354014014058,
+            0.16343551454697874,
+            0.09870416915046305
+          ],
+          "RIGHT": [
+            0.029098254615741045,
+            -0.16182354014014058,
+            -0.16343551454697874,
+            -0.09870416915046305
+          ]
+        },
+        "volatility_score": 0.08575503818641182,
+        "trend_direction": "leftward"
+      },
+      "environment": {
+        "term": "environment",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.21539247892814295,
+            0.029814893993932386,
+            -0.12639970518554805,
+            -0.055521643493877934
+          ],
+          "RIGHT": [
+            -0.21539247892814295,
+            -0.029814893993932386,
+            0.12639970518554805,
+            0.055521643493877934
+          ]
+        },
+        "volatility_score": 0.13755674860178704,
+        "trend_direction": "rightward"
+      },
+      "innovation": {
+        "term": "innovation",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.09673244332225164,
+            0.04606624589471445,
+            0.11189118901471148,
+            -0.05060477813333451
+          ],
+          "RIGHT": [
+            0.09673244332225164,
+            -0.04606624589471445,
+            -0.11189118901471148,
+            0.05060477813333451
+          ]
+        },
+        "volatility_score": 0.12370653316166969,
+        "trend_direction": "leftward"
+      },
+      "law": {
+        "term": "law",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.06547761865398143,
+            0.06522425302449486,
+            -0.06499167805971219,
+            -0.0920006913571111
+          ],
+          "RIGHT": [
+            0.06547761865398143,
+            -0.06522425302449486,
+            0.06499167805971219,
+            0.0920006913571111
+          ]
+        },
+        "volatility_score": 0.09597560535336075,
+        "trend_direction": "rightward"
+      },
+      "growth": {
+        "term": "growth",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.0376428401372431,
+            0.09247805901506473,
+            -0.05651006927126575,
+            -0.23591897252728833
+          ],
+          "RIGHT": [
+            0.0376428401372431,
+            -0.09247805901506473,
+            0.05651006927126575,
+            0.23591897252728833
+          ]
+        },
+        "volatility_score": 0.15283931023155362,
+        "trend_direction": "rightward"
+      },
+      "justice": {
+        "term": "justice",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.003624129892225658,
+            0.07888733074486036,
+            0.2886867797893381,
+            0.18346547169980154
+          ],
+          "RIGHT": [
+            0.003624129892225658,
+            -0.07888733074486036,
+            -0.2886867797893381,
+            -0.18346547169980154
+          ]
+        },
+        "volatility_score": 0.13251073925703344,
+        "trend_direction": "leftward"
+      },
+      "defense": {
+        "term": "defense",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.16563531500170214,
+            0.05051950413214247,
+            0.020500617378634168,
+            -0.1503274214539936
+          ],
+          "RIGHT": [
+            0.16563531500170214,
+            -0.05051950413214247,
+            -0.020500617378634168,
+            0.1503274214539936
+          ]
+        },
+        "volatility_score": 0.13900058157332687,
+        "trend_direction": "stable"
+      },
+      "student": {
+        "term": "student",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.15183699754108765,
+            0.11543150021625988,
+            0.17773322719434106,
+            0.2465045774178478
+          ],
+          "RIGHT": [
+            -0.15183699754108765,
+            -0.11543150021625988,
+            -0.17773322719434106,
+            -0.2465045774178478
+          ]
+        },
+        "volatility_score": 0.055826191508805224,
+        "trend_direction": "leftward"
+      },
+      "military": {
+        "term": "military",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.15990440151731564,
+            0.24071994149299483,
+            0.05592175772212936,
+            0.028048258305275273
+          ],
+          "RIGHT": [
+            -0.15990440151731564,
+            -0.24071994149299483,
+            -0.05592175772212936,
+            -0.028048258305275273
+          ]
+        },
+        "volatility_score": 0.0978290743877996,
+        "trend_direction": "rightward"
+      },
+      "green": {
+        "term": "green",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            -0.3922006899359272,
+            0.11888986662303583,
+            -0.2621507762848271,
+            0.3117251795669951
+          ],
+          "RIGHT": [
+            0.3922006899359272,
+            -0.11888986662303583,
+            0.2621507762848271,
+            -0.3117251795669951
+          ]
+        },
+        "volatility_score": 0.4886690517728827,
+        "trend_direction": "leftward"
+      },
+      "equality": {
+        "term": "equality",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.463529413628108,
+            0.04969071481487272,
+            0.5772464722193583,
+            0.5451364978658537
+          ],
+          "RIGHT": [
+            -0.463529413628108,
+            -0.04969071481487272,
+            -0.5772464722193583,
+            -0.5451364978658537
+          ]
+        },
+        "volatility_score": 0.32450147685707514,
+        "trend_direction": "leftward"
+      },
+      "school": {
+        "term": "school",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.07458247850477243,
+            0.14786931765768851,
+            -0.2101658380156634,
+            0.06338070665494576
+          ],
+          "RIGHT": [
+            -0.07458247850477243,
+            -0.14786931765768851,
+            0.2101658380156634,
+            -0.06338070665494576
+          ]
+        },
+        "volatility_score": 0.23495617983229242,
+        "trend_direction": "rightward"
+      },
+      "safety": {
+        "term": "safety",
+        "periods": [
+          "2000-2005",
+          "2006-2010",
+          "2011-2015",
+          "2016-2022"
+        ],
+        "ideology_trajectories": {
+          "LEFT": [
+            0.33774386972441683,
+            0.24750258861651037,
+            0.49420418075247785,
+            0.13767388950788073
+          ],
+          "RIGHT": [
+            -0.33774386972441683,
+            -0.24750258861651037,
+            -0.49420418075247785,
+            -0.13767388950788073
+          ]
+        },
+        "volatility_score": 0.23115772149615701,
+        "trend_direction": "rightward"
+      }
+    },
+    "pairwise_shifts": {
+      "2000-2005->2006-2010": [
+        {
+          "term": "oil",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": 1.0838256198572818,
+            "RIGHT": -1.0838256198572818
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.15210451275613382,
+            "RIGHT": -0.15210451275613382
+          },
+          "shift_magnitude": 0.931721107101148,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "immigration",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": -0.5299605313291844,
+            "RIGHT": 0.5299605313291844
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.295108927888727,
+            "RIGHT": -0.295108927888727
+          },
+          "shift_magnitude": 0.8250694592179114,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "independence",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": 0.8630113588706001,
+            "RIGHT": -0.8630113588706001
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.10940872033845961,
+            "RIGHT": -0.10940872033845961
+          },
+          "shift_magnitude": 0.7536026385321405,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "traditional",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": -0.5907847789299593,
+            "RIGHT": 0.5907847789299593
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.028944247450619028,
+            "RIGHT": -0.028944247450619028
+          },
+          "shift_magnitude": 0.6197290263805784,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "liberty",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": -0.4971753646570701,
+            "RIGHT": 0.4971753646570701
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.11725303273756009,
+            "RIGHT": -0.11725303273756009
+          },
+          "shift_magnitude": 0.6144283973946302,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "army",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": 0.6315865301831054,
+            "RIGHT": -0.6315865301831054
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.024891908445522155,
+            "RIGHT": -0.024891908445522155
+          },
+          "shift_magnitude": 0.6066946217375833,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "taxation",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": -0.5589545255496092,
+            "RIGHT": 0.5589545255496092
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.014820467978891685,
+            "RIGHT": 0.014820467978891685
+          },
+          "shift_magnitude": 0.5441340575707175,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "green",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": -0.3922006899359272,
+            "RIGHT": 0.3922006899359272
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.11888986662303583,
+            "RIGHT": -0.11888986662303583
+          },
+          "shift_magnitude": 0.5110905565589631,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "gas",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": 0.5361794205335625,
+            "RIGHT": -0.5361794205335625
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.0493087545876631,
+            "RIGHT": -0.0493087545876631
+          },
+          "shift_magnitude": 0.4868706659458994,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "healthcare",
+          "old_period": "2000-2005",
+          "new_period": "2006-2010",
+          "old_ideology_weights": {
+            "LEFT": -0.4599711678131573,
+            "RIGHT": 0.4599711678131573
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.005717970437758641,
+            "RIGHT": -0.005717970437758641
+          },
+          "shift_magnitude": 0.4656891382509159,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        }
+      ],
+      "2006-2010->2011-2015": [
+        {
+          "term": "reforms",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.10729174399431549,
+            "RIGHT": -0.10729174399431549
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.9115459168611916,
+            "RIGHT": -0.9115459168611916
+          },
+          "shift_magnitude": 0.8042541728668761,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "emission",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.012439655464060805,
+            "RIGHT": -0.012439655464060805
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.7099074671879338,
+            "RIGHT": -0.7099074671879338
+          },
+          "shift_magnitude": 0.6974678117238731,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "borders",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.04678265385326336,
+            "RIGHT": -0.04678265385326336
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.5705819734670394,
+            "RIGHT": 0.5705819734670394
+          },
+          "shift_magnitude": 0.6173646273203028,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "healthcare",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.005717970437758641,
+            "RIGHT": -0.005717970437758641
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.5497893874672897,
+            "RIGHT": 0.5497893874672897
+          },
+          "shift_magnitude": 0.5555073579050483,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "extremism",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.1171376758662153,
+            "RIGHT": -0.1171376758662153
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.4313592777327926,
+            "RIGHT": 0.4313592777327926
+          },
+          "shift_magnitude": 0.5484969535990079,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "equality",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.04969071481487272,
+            "RIGHT": -0.04969071481487272
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.5772464722193583,
+            "RIGHT": -0.5772464722193583
+          },
+          "shift_magnitude": 0.5275557574044856,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "deficit",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.02826839789529555,
+            "RIGHT": -0.02826839789529555
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.5326080427853257,
+            "RIGHT": -0.5326080427853257
+          },
+          "shift_magnitude": 0.5043396448900301,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "carbon",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.07839240212444576,
+            "RIGHT": -0.07839240212444576
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.5687986737004086,
+            "RIGHT": -0.5687986737004086
+          },
+          "shift_magnitude": 0.49040627157596284,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "reforming",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.057881452582069816,
+            "RIGHT": -0.057881452582069816
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.5152616047223579,
+            "RIGHT": -0.5152616047223579
+          },
+          "shift_magnitude": 0.4573801521402881,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "legal",
+          "old_period": "2006-2010",
+          "new_period": "2011-2015",
+          "old_ideology_weights": {
+            "LEFT": 0.03589014476822952,
+            "RIGHT": -0.03589014476822952
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.4171506782025978,
+            "RIGHT": 0.4171506782025978
+          },
+          "shift_magnitude": 0.4530408229708274,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        }
+      ],
+      "2011-2015->2016-2022": [
+        {
+          "term": "oversight",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": -0.1920793375957621,
+            "RIGHT": 0.1920793375957621
+          },
+          "new_ideology_weights": {
+            "LEFT": 1.1836392268698765,
+            "RIGHT": -1.1836392268698765
+          },
+          "shift_magnitude": 1.3757185644656387,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "deficit",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.5326080427853257,
+            "RIGHT": -0.5326080427853257
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.3399359098538784,
+            "RIGHT": 0.3399359098538784
+          },
+          "shift_magnitude": 0.872543952639204,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "assistance",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.727745465393046,
+            "RIGHT": -0.727745465393046
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.003278027296234254,
+            "RIGHT": -0.003278027296234254
+          },
+          "shift_magnitude": 0.7244674380968117,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "reforms",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.9115459168611916,
+            "RIGHT": -0.9115459168611916
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.21867692455057908,
+            "RIGHT": -0.21867692455057908
+          },
+          "shift_magnitude": 0.6928689923106125,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "terrorist",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.5862414344709871,
+            "RIGHT": -0.5862414344709871
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.09714566482065239,
+            "RIGHT": 0.09714566482065239
+          },
+          "shift_magnitude": 0.6833870992916394,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "discrimination",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.6916834965050166,
+            "RIGHT": -0.6916834965050166
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.013092796311504158,
+            "RIGHT": -0.013092796311504158
+          },
+          "shift_magnitude": 0.6785907001935124,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "green",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": -0.2621507762848271,
+            "RIGHT": 0.2621507762848271
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.3117251795669951,
+            "RIGHT": -0.3117251795669951
+          },
+          "shift_magnitude": 0.5738759558518222,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "defend",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": -0.24392935882200006,
+            "RIGHT": 0.24392935882200006
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.32030128243088596,
+            "RIGHT": -0.32030128243088596
+          },
+          "shift_magnitude": 0.564230641252886,
+          "direction_flip": true,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "emission",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.7099074671879338,
+            "RIGHT": -0.7099074671879338
+          },
+          "new_ideology_weights": {
+            "LEFT": 0.15229907833024442,
+            "RIGHT": -0.15229907833024442
+          },
+          "shift_magnitude": 0.5576083888576895,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        },
+        {
+          "term": "judicial",
+          "old_period": "2011-2015",
+          "new_period": "2016-2022",
+          "old_ideology_weights": {
+            "LEFT": 0.04561650402016056,
+            "RIGHT": -0.04561650402016056
+          },
+          "new_ideology_weights": {
+            "LEFT": -0.5067160645354959,
+            "RIGHT": 0.5067160645354959
+          },
+          "shift_magnitude": 0.5523325685556565,
+          "direction_flip": false,
+          "statistical_significance": 1.0
+        }
+      ]
+    }
+  }
+}

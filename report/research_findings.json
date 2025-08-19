@@ -1,0 +1,92 @@
+{
+  "experiment_summary": {
+    "total_models_trained": 4,
+    "periods_analyzed": 4,
+    "model_types": [
+      "baseline"
+    ]
+  },
+  "key_findings": {
+    "baseline": {
+      "most_volatile_terms": [
+        [
+          "green",
+          0.4886690517728827
+        ],
+        [
+          "oil",
+          0.3305020059623796
+        ],
+        [
+          "equality",
+          0.32450147685707514
+        ],
+        [
+          "federal",
+          0.2647688842674594
+        ],
+        [
+          "renewable",
+          0.25649825766778583
+        ],
+        [
+          "school",
+          0.23495617983229242
+        ],
+        [
+          "safety",
+          0.23115772149615701
+        ],
+        [
+          "civil",
+          0.22609937585909048
+        ],
+        [
+          "gdp",
+          0.22232641721057753
+        ],
+        [
+          "border",
+          0.19487908828576392
+        ]
+      ],
+      "frequent_flip_terms": {
+        "green": 3,
+        "oversight": 3,
+        "liberty": 2,
+        "insurance": 2,
+        "spending": 2,
+        "border": 2,
+        "modern": 2,
+        "government": 2,
+        "law": 2,
+        "extremism": 2
+      },
+      "trend_patterns": {
+        "rightward": 14,
+        "stable": 5,
+        "leftward": 11
+      },
+      "total_significant_shifts": 180,
+      "periods_with_most_shifts": "2006-2010->2011-2015"
+    }
+  },
+  "term_analysis": {
+    "total_terms_analyzed": 30,
+    "consistently_volatile_terms": {},
+    "cross_model_insights": {
+      "high_agreement_terms": 30,
+      "avg_volatility_all_terms": 0.17192691212570096
+    }
+  },
+  "methodology_insights": {
+    "temporal_splitting_effectiveness": "Successfully isolated time periods for drift analysis",
+    "model_comparison": "Multiple architectures enable robustness validation",
+    "semantic_shift_detection": "Quantified ideological association changes",
+    "limitations": [
+      "Limited by training data size per period",
+      "Transformer interpretability challenges",
+      "Need larger vocabulary for comprehensive analysis"
+    ]
+  }
+}

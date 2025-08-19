@@ -48,7 +48,7 @@ Feature stability analysis - What % of features remain stable vs flip
 
 
 # Report
-📊 Outputs You'll Get:
+📊 Outputs You'll Get: Report is present in directory report/*
 
 Term trajectory plots: Visual proof of semantic drift
 Shift heatmaps: Which terms shift most between periods
@@ -63,9 +63,12 @@ Please see directory political_semanatic_drift_analysis
    • Temporal evaluation crucial for political NLP model robustness
 
 # Dataset
-Data downloaded from source https://manifesto-project.wzb.eu/
+- Data downloaded from source https://manifesto-project.wzb.eu/
+- Data used for training is in dataset/*.csv folder
 
 # Code
+paper.ipynb has program details.
+
 ```
 python3 -m venv venv 
 source venv/bin/activate 

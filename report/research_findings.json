@@ -1,53 +1,54 @@
 {
   "experiment_summary": {
-    "total_models_trained": 4,
+    "total_models_trained": 6,
     "periods_analyzed": 4,
     "model_types": [
-      "baseline"
+      "baseline",
+      "roberta"
     ]
   },
   "key_findings": {
     "baseline": {
       "most_volatile_terms": [
         [
-          "green",
-          0.4886690517728827
+          "assistance",
+          0.5090189702005178
         ],
         [
-          "oil",
-          0.3305020059623796
+          "immigration",
+          0.47072573436345194
         ],
         [
-          "equality",
-          0.32450147685707514
+          "emission",
+          0.4571312054293662
         ],
         [
-          "federal",
-          0.2647688842674594
+          "healthcare",
+          0.36463588213699066
         ],
         [
-          "renewable",
-          0.25649825766778583
+          "independence",
+          0.36001252384901855
+        ],
+        [
+          "judicial",
+          0.29988275957378946
+        ],
+        [
+          "insurance",
+          0.2549221089571903
+        ],
+        [
+          "revenue",
+          0.24311310360818314
+        ],
+        [
+          "terrorism",
+          0.23780367128896907
         ],
         [
           "school",
-          0.23495617983229242
-        ],
-        [
-          "safety",
-          0.23115772149615701
-        ],
-        [
-          "civil",
-          0.22609937585909048
-        ],
-        [
-          "gdp",
-          0.22232641721057753
-        ],
-        [
-          "border",
-          0.19487908828576392
+          0.23495617983229236
         ]
       ],
       "frequent_flip_terms": {
@@ -63,20 +64,211 @@
         "extremism": 2
       },
       "trend_patterns": {
-        "rightward": 14,
+        "leftward": 9,
         "stable": 5,
-        "leftward": 11
+        "rightward": 16
       },
       "total_significant_shifts": 180,
       "periods_with_most_shifts": "2006-2010->2011-2015"
+    },
+    "roberta": {
+      "most_volatile_terms": [
+        [
+          "civil",
+          0.0
+        ],
+        [
+          "gdp",
+          0.0
+        ],
+        [
+          "energy",
+          0.0
+        ],
+        [
+          "security",
+          0.0
+        ],
+        [
+          "emission",
+          0.0
+        ],
+        [
+          "immigration",
+          0.0
+        ],
+        [
+          "terror",
+          0.0
+        ],
+        [
+          "law",
+          0.0
+        ],
+        [
+          "medicare",
+          0.0
+        ],
+        [
+          "state",
+          0.0
+        ]
+      ],
+      "frequent_flip_terms": {},
+      "trend_patterns": {
+        "stable": 30
+      },
+      "total_significant_shifts": 0,
+      "periods_with_most_shifts": "2011-2015->2016-2022"
     }
   },
   "term_analysis": {
     "total_terms_analyzed": 30,
-    "consistently_volatile_terms": {},
+    "consistently_volatile_terms": {
+      "assistance": {
+        "avg_volatility": 0.2545094851002589,
+        "volatility_std": 0.2545094851002589,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "immigration": {
+        "avg_volatility": 0.23536286718172597,
+        "volatility_std": 0.23536286718172597,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "emission": {
+        "avg_volatility": 0.2285656027146831,
+        "volatility_std": 0.2285656027146831,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "healthcare": {
+        "avg_volatility": 0.18231794106849533,
+        "volatility_std": 0.18231794106849533,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "independence": {
+        "avg_volatility": 0.18000626192450928,
+        "volatility_std": 0.18000626192450928,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "judicial": {
+        "avg_volatility": 0.14994137978689473,
+        "volatility_std": 0.14994137978689473,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "insurance": {
+        "avg_volatility": 0.12746105447859515,
+        "volatility_std": 0.12746105447859515,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "revenue": {
+        "avg_volatility": 0.12155655180409157,
+        "volatility_std": 0.12155655180409157,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "terrorism": {
+        "avg_volatility": 0.11890183564448453,
+        "volatility_std": 0.11890183564448453,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "school": {
+        "avg_volatility": 0.11747808991614618,
+        "volatility_std": 0.11747808991614618,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "civil": {
+        "avg_volatility": 0.11304968792954524,
+        "volatility_std": 0.11304968792954524,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "gdp": {
+        "avg_volatility": 0.11116320860528872,
+        "volatility_std": 0.11116320860528872,
+        "models_count": 2,
+        "consistent_trend": true,
+        "dominant_trend": "stable"
+      },
+      "medicare": {
+        "avg_volatility": 0.10925762035338786,
+        "volatility_std": 0.10925762035338786,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "budget": {
+        "avg_volatility": 0.10746612427152082,
+        "volatility_std": 0.10746612427152082,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "migrant": {
+        "avg_volatility": 0.0889914526008098,
+        "volatility_std": 0.0889914526008098,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "restructure": {
+        "avg_volatility": 0.08722609290175533,
+        "volatility_std": 0.08722609290175533,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "leftward"
+      },
+      "secure": {
+        "avg_volatility": 0.08463060134045991,
+        "volatility_std": 0.08463060134045991,
+        "models_count": 2,
+        "consistent_trend": false,
+        "dominant_trend": "rightward"
+      },
+      "court": {
+        "avg_volatility": 0.07690791514698686,
+        "volatility_std": 0.07690791514698686,
+        "models_count": 2,
+        "consistent_trend": true,
+        "dominant_trend": "stable"
+      },
+      "defense": {
+        "avg_volatility": 0.06950029078666341,
+        "volatility_std": 0.06950029078666341,
+        "models_count": 2,
+        "consistent_trend": true,
+        "dominant_trend": "stable"
+      },
+      "state": {
+        "avg_volatility": 0.06585046231404826,
+        "volatility_std": 0.06585046231404826,
+        "models_count": 2,
+        "consistent_trend": true,
+        "dominant_trend": "stable"
+      }
+    },
     "cross_model_insights": {
-      "high_agreement_terms": 30,
-      "avg_volatility_all_terms": 0.17192691212570096
+      "high_agreement_terms": 5,
+      "avg_volatility_all_terms": 0.10305946472550585
     }
   },
   "methodology_insights": {
@@ -88,5 +280,116 @@
       "Transformer interpretability challenges",
       "Need larger vocabulary for comprehensive analysis"
     ]
+  },
+  "cross_model_comparison": {
+    "volatility_correlation": {},
+    "common_volatile_terms": [
+      {
+        "term": "terrorism",
+        "volatility_by_model": {
+          "baseline": 0.23780367128896907,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "civil",
+        "volatility_by_model": {
+          "baseline": 0.22609937585909048,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "education",
+        "volatility_by_model": {
+          "baseline": 0.07592484586149607,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "gdp",
+        "volatility_by_model": {
+          "baseline": 0.22232641721057744,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "energy",
+        "volatility_by_model": {
+          "baseline": 0.06667883176160434,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "defense",
+        "volatility_by_model": {
+          "baseline": 0.13900058157332681,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "revenue",
+        "volatility_by_model": {
+          "baseline": 0.24311310360818314,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "security",
+        "volatility_by_model": {
+          "baseline": 0.10347887018855466,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "emission",
+        "volatility_by_model": {
+          "baseline": 0.4571312054293662,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "immigration",
+        "volatility_by_model": {
+          "baseline": 0.47072573436345194,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "secure",
+        "volatility_by_model": {
+          "baseline": 0.16926120268091982,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "terror",
+        "volatility_by_model": {
+          "baseline": 0.1100506715455476,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "policy",
+        "volatility_by_model": {
+          "baseline": 0.13149013895976994,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "law",
+        "volatility_by_model": {
+          "baseline": 0.09597560535336071,
+          "roberta": 0.0
+        }
+      },
+      {
+        "term": "medicare",
+        "volatility_by_model": {
+          "baseline": 0.21851524070677572,
+          "roberta": 0.0
+        }
+      }
+    ],
+    "model_specific_insights": {}
   }
 }

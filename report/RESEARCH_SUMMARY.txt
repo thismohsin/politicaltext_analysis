@@ -1,25 +1,55 @@
 === POLITICAL SEMANTIC DRIFT ANALYSIS - KEY FINDINGS ===
 
 📊 EXPERIMENT OVERVIEW:
-   • Models trained: 4
+   • Models trained: 6
    • Time periods: 4
-   • Model architectures: baseline
+   • Model architectures: baseline, roberta
 
 🔍 BASELINE MODEL FINDINGS:
    Most semantically volatile terms:
-      • green: 0.489 volatility score
-      • oil: 0.331 volatility score
-      • equality: 0.325 volatility score
-      • federal: 0.265 volatility score
-      • renewable: 0.256 volatility score
+      • assistance: 0.509 volatility score
+      • immigration: 0.471 volatility score
+      • emission: 0.457 volatility score
+      • healthcare: 0.365 volatility score
+      • independence: 0.360 volatility score
    Terms with ideological direction flips:
       • green: flipped 3 times
       • oversight: flipped 3 times
       • liberty: flipped 2 times
       • insurance: flipped 2 times
       • spending: flipped 2 times
-   Trend patterns: {'rightward': 14, 'stable': 5, 'leftward': 11}
+   Trend patterns: {'leftward': 9, 'stable': 5, 'rightward': 16}
    Total significant shifts: 180
+
+🔍 ROBERTA MODEL FINDINGS:
+   Most semantically volatile terms:
+      • civil: 0.000 volatility score
+      • gdp: 0.000 volatility score
+      • energy: 0.000 volatility score
+      • security: 0.000 volatility score
+      • emission: 0.000 volatility score
+   Trend patterns: {'stable': 30}
+   Total significant shifts: 0
+
+🔄 CROSS-MODEL VALIDATION:
+   Terms consistently volatile across models:
+      • terrorism: baseline:0.238, roberta:0.000
+      • civil: baseline:0.226, roberta:0.000
+      • education: baseline:0.076, roberta:0.000
+      • gdp: baseline:0.222, roberta:0.000
+      • energy: baseline:0.067, roberta:0.000
+
+📈 CONSISTENTLY VOLATILE POLITICAL TERMS:
+   • assistance: avg volatility 0.255, trend: leftward
+   • immigration: avg volatility 0.235, trend: leftward
+   • emission: avg volatility 0.229, trend: leftward
+   • healthcare: avg volatility 0.182, trend: rightward
+   • independence: avg volatility 0.180, trend: rightward
+   • judicial: avg volatility 0.150, trend: rightward
+   • insurance: avg volatility 0.127, trend: leftward
+   • revenue: avg volatility 0.122, trend: leftward
+   • terrorism: avg volatility 0.119, trend: leftward
+   • school: avg volatility 0.117, trend: rightward
 
 💡 RESEARCH IMPLICATIONS:
    • Political language shows measurable semantic drift over time
